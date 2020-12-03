@@ -105,10 +105,8 @@ body{
   width: 100vw;
   height: 100vh;
 
-  background-image: url(../images/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  color: black;
+  background-color: red;
 
   font-family: "fairplex-wide";
   -webkit-font-smoothing: antialiased;
@@ -202,7 +200,7 @@ input[type=text], input[type=password], input[type=email] {
     font-family: "fairplex-wide";
     font-size: 24px;
     opacity: 1;
-    color: white;
+    color: black;
     font-weight: 400;
 
     -webkit-transition: border-bottom 0.4s ease-in-out;
@@ -246,7 +244,7 @@ input[type=submit]:hover {
 
 
 ::-webkit-input-placeholder { /* Chrome */
-  color: white;
+  color: red;
   font-style: italic;
   opacity: .4;
 
@@ -277,7 +275,7 @@ input[type=submit]:hover {
 /* Typography */
 
 h1{
-  color: white;
+  color: black;
   font-size: 48px;
   font-weight: 700;
   letter-spacing: 1px;
